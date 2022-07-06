@@ -263,3 +263,101 @@
 .check-input{
   margin-top: -16px;
 }
+
+//homePage
+.new-performmance{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+
+}
+.home-shopping-cart { 
+    position: absolute;
+    right: 185px;
+    top: 10px;
+}
+.sidebar{
+  margin-top: 2px;
+  display: flex;
+  width: 256px;
+  height: 910px;
+  background-color: white;
+}
+.sidebar-browse{
+  color: #909CA4;
+  margin-top: 19px;
+  margin-left: 24px;
+  font-family: 'Graphik';
+  font-size: 13px;
+}
+.sidebar-button{
+  display: flex;
+  width: 231px;
+  height: 35px;
+  margin-left: 13px;
+  margin-top: 7px;
+  border-radius: 6px;
+
+}
+.sidebar-button-logo{
+  width: 20px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.sidebar-button-title{
+  font-family: 'Graphik';
+  display: flex;
+  margin-left: 16px;
+  margin-top: 5px;
+  font-size: 13px;
+}
+.lifetime{
+  width: 214px;
+  height: 67px;
+  border-radius: 6px;
+  background-color: #e4ebf1;
+  margin-top: 154px;
+  margin-left: 21px;
+  padding-top: 1px;
+}
+.lifetime-title{
+  color: #909CA4;
+  font-size: 13px;
+  margin-top: 8px;
+  margin-left: 13px;
+  // margin-bottom: 0px;
+}
+.lifetime-money{
+  font-size: 20px;
+  margin-top: -7px;
+  margin-left: 13px;
+  margin-bottom: 0px;
+}
+.head-portrait{
+  width: 214px;
+  height: 67px;
+  margin-top: 14px;
+  margin-left: 21px;
+}
+.photo{
+  position: absolute;
+  margin-top: 10px;
+  margin-left: -2px;
+}
+.name{
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 45px;
+  font-size: 13px;
+}
+.old{
+  position: absolute;
+  margin-top: 16px;
+  margin-left: 45px;
+  font-size: 12px;
+  color: #b0b8c3;
+}
+.move{
+  margin-top: 2px;
+  margin-left: 188px;
+}

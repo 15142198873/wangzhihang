@@ -14,14 +14,11 @@ export default function ForgetPasswordContent(props) {
                 <Link to='/loginBack'>
                 <img src={BackLogin} alt='' className='back-login'/>
                 </Link>
-                <div className='line'></div>
-                
-                <PasswordMainTitle/>
-              
+                <div className='line'></div>               
+                <PasswordMainTitle/>              
                 <p className='password-main-text'>Enter your email address and we will send you a link to reset your password.</p>
                 <InputComponent content='Email' place='Enter Your Email' type='text'/>
-
-               <Link to='/checkBox'>
+                <Link to='/checkBox'>
                 <MultipleButton content='Reset My Password'/>
              </Link>
              </div>
