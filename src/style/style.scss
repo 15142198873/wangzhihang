@@ -1,4 +1,4 @@
-.loginHeader {
+.login-header {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -8,13 +8,13 @@
   display: flex;
   align-items: center;
 }
-.loginHeaderGroup {
+.login-header-group {
     position: absolute;
     width: 21px;
     height: 14px;
     left: 20px;
 }
-.LoginHeaderLogo {
+.login-header-logo {
     position: absolute;
     width: 24.67px;
     height: 26.97px;
@@ -22,27 +22,27 @@
     top: 15px;
 }
 
-.PerformLive {
+.perform-live {
     margin-left: 10px;
     position: absolute;
     left: 98px;
     top: 1px;
 }
-.HeaderInput input {
+.header-input input {
   display: flex;
   width: 300px;
   height: 0px;
 }
-.HeaderInput {
+.header-input {
   position: absolute;
   left: 40%;
 }
-.Magnifier {
+.magnifier {
   display: flex;
   margin-left: -319px;
   margin-top: 9px;
 }
-.Search {
+.search {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -50,19 +50,19 @@
   margin-left: 15px;
   margin-top: 6px;
 }
-.shoppingCart {
+.shopping-cart {
     position: absolute;
     right: 20px;
     top: 10px;
 }
-.headerOutside {
+.header-outside {
   align-items: center;
   justify-content: center;
 }
-.headerLeftLogo {
+.header-left-logo {
   width: 200px;
 }
-.MainCoutent {
+.main-coutent {
   margin-top: 151px;
   margin-left: 719px;
   display: flex;
@@ -71,21 +71,21 @@
   background-color: pink;
   border-radius: 6px;
 }
-.carOutside {
+.car-outside {
   display: flex;
 }
-.loginMainTitle {
+.login-main-title {
   font-weight:900;
   font-size: 28px;
   margin-left: 64px;
   margin-top: 35px;
 }
-.mainEmail {
+.mai-email {
   margin-top: 100px;
   margin-left: -155px;
   font-size: 14px;
 }
-.inputComponent {
+.input-component {
   width: 300px;
   height: 30px;
   border-radius: 6px;
@@ -108,12 +108,12 @@
   border-radius: 6px;
   margin-top: 206px;
 }
-.inputTitle {
+.input-title {
   font-size: 14px;
   margin-left: 67px;
   margin-bottom: 5px;
 }
-.multipleButton {
+.multiple-button {
   width: 310px;
   height: 40px;
   background-color: rgb(184, 66, 66);
@@ -123,22 +123,22 @@
   color: white;
   cursor: pointer;
 }
-.loginText {
+.login-text {
   font-size: 14px;
   margin-left: 154px;
   margin-top: 39px;
 }
-.loginLogo {
+.login-logo {
   margin-right: 28px;
   cursor: pointer;
 }
-.loginLogoOutside {
+.login-logo-outside {
   margin-left: 56px;
 }
-.Vector {
+.vector {
   margin-top: -10px;
 }
-.loginMainBottomText {
+.login-main-bottom-text {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -150,16 +150,16 @@
   margin-left: -440px;
   font-size: 14px;
 }
-.loginMainBottomTextLeft {
+.login-main-bottom-text-left {
   margin-left: -39px;
   margin-right: 10px;
 }
-.loginMainBottomTextRight {
+.login-main-bottom-text-right {
   color: #7e92af;
   text-decoration: underline;
   cursor: pointer;
 }
-.forgotPassword {
+.forgot-password {
   cursor: pointer;
   position: absolute;
   margin-left: 267px;
@@ -167,20 +167,20 @@
   font-size: 10px;
   margin-bottom: 0px;
 }
-.bottomText {
+.bottom-text {
   margin-left: -522px;
   font-size: 11px;
   color: #6c747f;
   margin-top: 532px;
   position: absolute;
 }
-.loginOutside{
+.login-outside{
     z-index: 100;
     height: 980px;
     background-color: #e4ebf1;
 }
 // forgetPassword
-.backLogin{
+.back-login{
   margin-top: 35px;
   margin-left: 38px;
 }
@@ -190,14 +190,14 @@
   margin-left: 40px;
   border: 1px solid #EFF1F3;
 }
-.passwordMainTitle{
+.password-main-title{
   font-size: 28px;
   margin-top: 29px;
   margin-left: 64px;
   font-weight: 900;
   margin-bottom: 11px;
 }
-.passwordMainText{
+.password-main-text{
   color: #6c747f;
   font-size: 14px;
   margin-top: 21px;
@@ -205,7 +205,7 @@
   margin-right: 41px;
   margin-bottom: 10px;
 }
-.inputPassword{
+.input-password{
   width: 350px;
   height: 30px;
   border-radius: 6px;
@@ -213,7 +213,7 @@
   margin-bottom: 15px;
   border: 1px solid #6c747f;
 }
-.PasswordInputTitle{
+.password-input-title{
   margin-top: 25px;
   margin-left: 35px;
   font-size: 14px;
@@ -221,7 +221,7 @@
 .text{
   margin-left: 50px;
 }
-.login-main-box-forgetPassword {
+.login-main-box-forget-password {
   width: 425px;
   height: 401px;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.07);
@@ -247,19 +247,19 @@
 }
 
 //checkBox
-.checkMainTitle{
+.check-main-title{
   font-weight: 900;
   font-size: 28px;
   margin-left: 64px;
   margin-top: 35px;
 }
-.checkBoxText{
+.check-box-text{
   font-size: 14px;
   color: #7e92af;
   margin-top: 6px;
   margin-left: 62px;
   margin-right: 26px;
 }
-.checkInput{
+.check-input{
   margin-top: -16px;
 }

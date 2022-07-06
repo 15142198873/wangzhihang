@@ -10,21 +10,20 @@ export default function ForgetPasswordContent(props) {
   return (
     <div>
          <div className="login-main">
-             <div className='login-main-box-forgetPassword'>
+             <div className='login-main-box-forget-password'>
                 <Link to='/loginBack'>
-                <img src={BackLogin} alt='' className='backLogin'/>
+                <img src={BackLogin} alt='' className='back-login'/>
                 </Link>
                 <div className='line'></div>
                 
                 <PasswordMainTitle/>
               
-                <p className='passwordMainText'>Enter your email address and we will send you a link to reset your password.</p>
+                <p className='password-main-text'>Enter your email address and we will send you a link to reset your password.</p>
                 <InputComponent content='Email' place='Enter Your Email' type='text'/>
 
                <Link to='/checkBox'>
                 <MultipleButton content='Reset My Password'/>
-              </Link>
-
+             </Link>
              </div>
              <div  className='text'>
              <BottomText/>

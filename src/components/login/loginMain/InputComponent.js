@@ -4,8 +4,8 @@ export default function InputComponent({content,place,type}) {
   return (
     <div>
         <div>
-        <p className='inputTitle'>{content}</p>
-         <input placeholder={place} className='inputComponent' type={type}></input> 
+        <p className='input-title'>{content}</p>
+         <input placeholder={place} className='input-component' type={type}></input> 
         </div>
     </div>
   )

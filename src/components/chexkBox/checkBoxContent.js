@@ -8,8 +8,8 @@ export default function checkBoxContent() {
     
     <div className="login-main">
         <div className='login-main-check-box'>
-        <p className='checkMainTitle'>Check Your Inbox!</p>
-        <p className='checkBoxText'>Check your email for a link to reset your password. If it doesn’t appear within a few minutes, check your spam folder.</p>
+        <p className='check-main-title'>Check Your Inbox!</p>
+        <p className='check-box-text'>Check your email for a link to reset your password. If it doesn’t appear within a few minutes, check your spam folder.</p>
        <Link to='/loginCheck'>
         <Button content='Return to Login'/>
         </Link>

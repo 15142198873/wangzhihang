@@ -3,7 +3,7 @@ import React from 'react'
 export default function PasswordMainTitle() {
   return (
     <div>
-        <p className='passwordMainTitle'>Forgot password?</p>
+        <p className='password-main-title'>Forgot password?</p>
     </div>
   )
 }

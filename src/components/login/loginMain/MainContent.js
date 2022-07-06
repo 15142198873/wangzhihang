@@ -12,7 +12,7 @@ export default function MainContent() {
       <MainTitle />
       <InputComponent place='  Enter Your Email' content='Email'/>
       <Link to='forgetPassword'>
-      <p className='forgotPassword'>Forgot password?</p>
+      <p className='forgot-password'>Forgot password?</p>
       </Link>
       <InputComponent place='  Enter Your Password' content='Password' type='password'/>
 
@@ -22,10 +22,10 @@ export default function MainContent() {
       <Vectors/>
       
     </div>
-    <div className='loginMainBottomText'>
-    <p className='loginMainBottomTextLeft'> New to Perform Life?</p> 
+    <div className='login-main-bottom-text'>
+    <p className='login-main-bottom-text-left'> New to Perform Life?</p> 
     <Link to='register'>
-    <p className='loginMainBottomTextRight'>Create an account</p>
+    <p className='login-main-bottom-text-right'>Create an account</p>
     </Link>
     </div>
     <BottomText/>

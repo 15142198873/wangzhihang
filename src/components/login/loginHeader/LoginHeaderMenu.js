@@ -4,7 +4,7 @@ import '../../../style/style.scss'
 export default function LoginHeaderMenu() {
   return (
     <>
-        <img src={Group} alt='' className='loginHeaderGroup'/>
+        <img src={Group} alt='' className='login-header-group'/>
     </>
   )
 }

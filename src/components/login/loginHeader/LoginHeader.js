@@ -8,12 +8,10 @@ import HeaderInput from './HeaderInput';
 import ShoppingCart from './ShoppingCart';
 export default function LoginHeader() {
   return (
-    <div className='headerOutside'>
-    <div className='loginHeader'>
-    
+    <div className='header-outside'>
+    <div className='login-header'>   
       <LoginHeaderMenu/>
-      <LoginHeaderLogo/>
-  
+      <LoginHeaderLogo/> 
       <PerformLive/>
       <HeaderInput/>
       <ShoppingCart/>

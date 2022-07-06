@@ -5,7 +5,7 @@ import '../../../style/style.scss'
 export default function LoginHeaderLogo() {
   return (
     <div>
-        <img src={Logo} className='LoginHeaderLogo' alt='' />
+        <img src={Logo} className='login-header-logo' alt='' />
     </div>
   )
 }

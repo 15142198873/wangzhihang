@@ -10,12 +10,12 @@ export default function registerContent() {
  
     <div className="login-main">
         <div className='login-main-register-box'>
-        <p className='checkMainTitle'>Create an account</p>
+        <p className='check-main-title'>Create an account</p>
             <InputComponent place='Enter Your Email' content='Email'/>
       
             <InputComponent place='Enter Your Password' content='Password' type='password'/>
          
-            <div className='checkInput'>
+            <div className='check-input'>
             <InputComponent place='Confirm Your Password'  type='password'/>
             </div>
             <Link to='/login'>
@@ -23,14 +23,13 @@ export default function registerContent() {
             </Link>
             <Vectors/>
         </div>
-        <div className='loginMainBottomText'>         
-           <p className='loginMainBottomTextLeft'>Already have an account?</p> 
+        <div className='login-main-bottom-text'>         
+           <p className='login-main-bottom-text-left'>Already have an account?</p> 
            <Link to='login'>
-           <p className='loginMainBottomTextRight'>Login here</p>   
+           <p className='login-main-bottom-text-right'>Login here</p>   
            </Link>
-        </div>
-       
-             <BottomText/>
+        </div>       
+           <BottomText/>
        
     </div>
     

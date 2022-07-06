@@ -3,7 +3,7 @@ import React from 'react'
 export default function PerformLive() {
   return (
     <div>
-        <p className='PerformLive'>PerformLive</p>
+        <p className='perform-live'>PerformLive</p>
     </div>
   )
 }

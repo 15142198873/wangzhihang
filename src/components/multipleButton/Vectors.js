@@ -7,14 +7,14 @@ import logoForth from '../../image/logoForth.png'
 import logoFifth from '../../image/logoFifth.png'
 export default function Vectors() {
   return (
-    <div className='Vector'>
-        <p className='loginText'>Or continue with</p>
-        <div className='loginLogoOutside'>
-          <img src={LogoFirst} alt='' className='loginLogo'/> 
-          <img src={logoSecond} alt='' className='loginLogo'/> 
-          <img src={logoThird} alt='' className='loginLogo'/> 
-          <img src={logoForth} alt='' className='loginLogo'/> 
-          <img src={logoFifth} alt='' className='loginLogo'/> 
+    <div className='vector'>
+        <p className='login-text'>Or continue with</p>
+        <div className='login-logo-outside'>
+          <img src={LogoFirst} alt='' className='login-logo'/> 
+          <img src={logoSecond} alt='' className='login-logo'/> 
+          <img src={logoThird} alt='' className='login-logo'/> 
+          <img src={logoForth} alt='' className='login-logo'/> 
+          <img src={logoFifth} alt='' className='login-logo'/> 
         </div>
     </div>
   )
