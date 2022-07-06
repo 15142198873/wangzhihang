@@ -1,132 +1,230 @@
-.loginOutside{
-    // background-color: #c4c7cc;
+.loginHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 55px;
+  background-color: white;
+  display: flex;
+  align-items: center;
 }
-.loginHeader{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 55px;
-    background-color: aliceblue;
-    display: flex;
-    align-items: center;  
-}
-.loginHeaderGroup{
-    display: flex; 
+.loginHeaderGroup {
+    position: absolute;
     width: 21px;
     height: 14px;
-    margin-left: 20px;
+    left: 20px;
 }
-.LoginHeaderLogo{
-    display: flex;
+.LoginHeaderLogo {
+    position: absolute;
     width: 24.67px;
     height: 26.97px;
-    margin-left: 24px;
-
+    left: 65px;
+    top: 15px;
 }
 
-.PerformLive{
+.PerformLive {
     margin-left: 10px;
+    position: absolute;
+    left: 98px;
+    top: 1px;
 }
-.HeaderInput input{
-    display: flex;
-    width: 300px;
-    height: 0px;
-   
+.HeaderInput input {
+  display: flex;
+  width: 300px;
+  height: 0px;
 }
-.HeaderInput{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 570px;
+.HeaderInput {
+  position: absolute;
+  left: 40%;
 }
-.Magnifier{
-    display: flex;
-    margin-left: -319px;
-    margin-top: 9px;
+.Magnifier {
+  display: flex;
+  margin-left: -319px;
+  margin-top: 9px;
 }
-.Search{
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #6C747F;
-    margin-left: 15px;
-    margin-top: 6px;
+.Search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6c747f;
+  margin-left: 15px;
+  margin-top: 6px;
 }
-.shoppingCart{
-    display: flex;
-   
-margin-left: 770px;
+.shoppingCart {
+    position: absolute;
+    right: 20px;
+    top: 10px;
 }
-// .outside{
-//     display: flex;
-// }
-.headerOutside{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.headerOutside {
+  align-items: center;
+  justify-content: center;
 }
-.MainCoutent{
-    margin-top: 151px;
-    margin-left: 719px;
-    display: flex;
-    width: 425px;
-    height: 471px;
-    background-color: pink;
-    border-radius: 6px;
+.headerLeftLogo {
+  width: 200px;
 }
-.carOutside{
-    display: flex;
-    
+.MainCoutent {
+  margin-top: 151px;
+  margin-left: 719px;
+  display: flex;
+  width: 425px;
+  height: 471px;
+  background-color: pink;
+  border-radius: 6px;
 }
-.loginMainTitle{
-    font-size: 28px;
-    margin-left: 64px;
-    margin-top: 35px;
+.carOutside {
+  display: flex;
 }
-.mainEmail{
-    margin-top: 100px;
-    margin-left: -155px;
-    font-size: 14px;
+.loginMainTitle {
+  font-weight:900;
+  font-size: 28px;
+  margin-left: 64px;
+  margin-top: 35px;
 }
-.inputComponent{
-   width: 300px;
-   height: 30px;
-   border-radius: 6px;
-   margin-left: 64px;
-   margin-bottom: 15px;
-   border:1px solid #6C747F;
+.mainEmail {
+  margin-top: 100px;
+  margin-left: -155px;
+  font-size: 14px;
+}
+.inputComponent {
+  width: 300px;
+  height: 30px;
+  border-radius: 6px;
+  margin-left: 64px;
+  margin-bottom: 15px;
+  border: 1px solid #6c747f;
 }
 
-.login-main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .login-main-box{
-    width: 425px;
-    height: 471px;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.07);
-    border-radius: 6px;
-    margin-top: 206px;
-  }
-.inputTitle{
-    font-size: 14px;
-    margin-left: 67px;
-    margin-bottom: 5px;
+.login-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.multipleButton{
-    width: 310px;
-    height: 40px;
-    background-color:rgb(184, 66, 66);
-    border-radius: 6px;
-    margin-top: 30px;
-    margin-left: 62px;
-    color: white;
+.login-main-box {
+  width: 425px;
+  height: 471px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.07);
+  background-color: white;
+  border-radius: 6px;
+  margin-top: 206px;
 }
-.loginText{
-    font-size: 14px;
-    margin-left: 154px;
-    margin-top: 39px;
+.inputTitle {
+  font-size: 14px;
+  margin-left: 67px;
+  margin-bottom: 5px;
+}
+.multipleButton {
+  width: 310px;
+  height: 40px;
+  background-color: rgb(184, 66, 66);
+  border-radius: 6px;
+  margin-top: 30px;
+  margin-left: 62px;
+  color: white;
+  cursor: pointer;
+}
+.loginText {
+  font-size: 14px;
+  margin-left: 154px;
+  margin-top: 39px;
+}
+.loginLogo {
+  margin-right: 28px;
+  cursor: pointer;
+}
+.loginLogoOutside {
+  margin-left: 56px;
+}
+.Vector {
+  margin-top: -10px;
+}
+.loginMainBottomText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 20px;
+  // background-color: pink;
+  // display: inline;
+  margin-bottom: -781px;
+  margin-left: -440px;
+  font-size: 14px;
+}
+.loginMainBottomTextLeft {
+  margin-left: -39px;
+  margin-right: 10px;
+}
+.loginMainBottomTextRight {
+  color: #7e92af;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.forgotPassword {
+  cursor: pointer;
+  position: absolute;
+  margin-left: 267px;
+  margin-top: 16px;
+  font-size: 10px;
+  margin-bottom: 0px;
+}
+.bottomText {
+  margin-left: -522px;
+  font-size: 11px;
+  color: #6c747f;
+  margin-top: 532px;
+  position: absolute;
+}
+.loginOutside{
+    z-index: 100;
+    height: 980px;
+    background-color: #e4ebf1;
+}
+// forgetPassword
+.backLogin{
+  margin-top: 35px;
+  margin-left: 38px;
+}
+.line{
+  width: 350px;
+  margin-top: 13px;
+  margin-left: 40px;
+  border: 1px solid #EFF1F3;
+}
+.passwordMainTitle{
+  font-size: 28px;
+  margin-top: 29px;
+  margin-left: 64px;
+  font-weight: 900;
+  margin-bottom: 11px;
+}
+.passwordMainText{
+  color: #6c747f;
+  font-size: 14px;
+  margin-top: 21px;
+  margin-left: 63px;
+  margin-right: 41px;
+  margin-bottom: 10px;
+}
+.inputPassword{
+  width: 350px;
+  height: 30px;
+  border-radius: 6px;
+  margin-left: 33px;
+  margin-bottom: 15px;
+  border: 1px solid #6c747f;
+}
+.PasswordInputTitle{
+  margin-top: 25px;
+  margin-left: 35px;
+  font-size: 14px;
+}
+.text{
+  margin-left: 50px;
+}
+.login-main-box-forgetPassword {
+  width: 425px;
+  height: 401px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.07);
+  background-color: white;
+  border-radius: 6px;
+  margin-top: 206px;
 }
