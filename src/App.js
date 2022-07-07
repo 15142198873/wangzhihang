@@ -12,7 +12,6 @@ export default function App() {
           <div className='login-outside'>
             {/* <Router>
             <Routes>
-                <Route path='/' element={<Login/>}/>
                 <Route path='/forgetPassword' element={<ForgetPasswordMain/>} /> 
                 <Route path='/register' element={ <Register/>} /> 
                 <Route path='/checkBox' element={ <CheckBoxMain/>} /> 

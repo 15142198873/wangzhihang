@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../style/style.scss'
+
 export default function sidebarButton({img,content}) {
   return (
     <div>

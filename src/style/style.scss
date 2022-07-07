@@ -291,6 +291,7 @@
   font-size: 13px;
 }
 .sidebar-button{
+  cursor: pointer;
   display: flex;
   width: 231px;
   height: 35px;
@@ -298,6 +299,9 @@
   margin-top: 7px;
   border-radius: 6px;
 
+}
+.sidebar-button:hover{
+  background-color: #b6c1c9;
 }
 .sidebar-button-logo{
   width: 20px;
@@ -381,6 +385,16 @@
   align-items: center;
   justify-content: center;
 }
+.first-button:hover{
+  background-color: red;
+  cursor: pointer;
+}
+.first-button:active{
+  border: 1px solid black;
+}
+.first-button:focus{
+  border: 1px solid black;
+}
 .first-button p{
   margin: 11px;
   font-family: 'Inter';
@@ -389,8 +403,8 @@
 .type-header{
   display: flex;
   width: 1630px;
-  height: 50px;
-  margin-left: 256px;
+  height: 42px;
+  margin-left: 534px;
 }
 .typeName{
   width: 100px;
@@ -401,34 +415,54 @@
   font-weight: 900;
 }
 .view{
-  top: 18%;
+  margin-top: 10px;
   position: absolute;
   right: 7%;
   font-family: 'Graphik';
   font-size: 14px;
 }
 .lefe-and-right-logo{
+  margin-top: 3px;
   position: absolute;
   right: 2%;
-  top: 17%;
 }
 .live-video{
+  display: flex;
   width: 1605px;
-  height: 764px;
   margin-top: 0px;
-  margin-left: 262px;
+  margin-left: 534px;
 }
-.live-video div{
+.live-children{ 
   width: 266px;
   height: 177px;
   margin-left: 18px;
   margin-top: 0px;
   border-radius: 5px;
 }
-.live-video p{
+.live-video-text{
   display: flex;
   width: 266px;
   margin-top: 10px;
   margin-left: 20px;
   font-size: 14px;
+}
+.main-outside{
+  margin-top: 10px;
+  margin-left: 0px;
+  height: 177px;
+}
+.lives-border{
+  width: auto;
+  height: 200px;
+  margin-bottom: 20px;
+}
+.home-live-details{
+  width: 1650px;
+  height: 800px;
+  // background-color: red;
+  margin-top: 10px;
+  margin-left: 276px;
+}
+.home-page{
+  margin-left: -278px;
 }

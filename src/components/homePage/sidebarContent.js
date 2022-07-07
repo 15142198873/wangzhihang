@@ -18,7 +18,9 @@ export default class sidebarContent extends Component {
     return (
       <div>
           <p className='sidebar-browse'>Browse</p>
+            
           <SidebarButton img={BlackHome} content='Home'/>
+
           <SidebarButton img={Flame} content='Live'/>
           <SidebarButton img={Vcr} content='pcoming'/>
           <SidebarButton img={Calendar} content='Popular'/>
