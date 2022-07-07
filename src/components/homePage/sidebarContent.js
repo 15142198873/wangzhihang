@@ -13,14 +13,15 @@ import Purchases from '../../image/Purchases.png'
 import Payment from '../../image/payment.png'
 import Photo from '../../image/photo.png'
 import Move from '../../image/move.png'
+import { Link } from 'react-router-dom'
 export default class sidebarContent extends Component {
   render() {
     return (
       <div>
           <p className='sidebar-browse'>Browse</p>
-            
+          <Link to='/lives'>
           <SidebarButton img={BlackHome} content='Home'/>
-
+          </Link>
           <SidebarButton img={Flame} content='Live'/>
           <SidebarButton img={Vcr} content='pcoming'/>
           <SidebarButton img={Calendar} content='Popular'/>
