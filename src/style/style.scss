@@ -361,3 +361,74 @@
   margin-top: 2px;
   margin-left: 188px;
 }
+.home-top-button{
+  width: 1630px;
+  height: 100px;
+  margin-top: -912px;
+  margin-left: 256px;
+  display: flex;
+  align-items: center;
+}
+.first-button{
+  width:auto;
+  height: 32px;
+  
+  margin-left: 20px;
+  border-radius: 30px;
+  border: 0px ;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.first-button p{
+  margin: 11px;
+  font-family: 'Inter';
+  font-size: 12px;
+}
+.type-header{
+  display: flex;
+  width: 1630px;
+  height: 50px;
+  margin-left: 256px;
+}
+.typeName{
+  width: 100px;
+  margin-top: 7px;
+  margin-left: 24px;
+  font-size: 22px;
+  font-family: 'Graphik';
+  font-weight: 900;
+}
+.view{
+  top: 18%;
+  position: absolute;
+  right: 7%;
+  font-family: 'Graphik';
+  font-size: 14px;
+}
+.lefe-and-right-logo{
+  position: absolute;
+  right: 2%;
+  top: 17%;
+}
+.live-video{
+  width: 1605px;
+  height: 764px;
+  margin-top: 0px;
+  margin-left: 262px;
+}
+.live-video div{
+  width: 266px;
+  height: 177px;
+  margin-left: 18px;
+  margin-top: 0px;
+  border-radius: 5px;
+}
+.live-video p{
+  display: flex;
+  width: 266px;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 14px;
+}
