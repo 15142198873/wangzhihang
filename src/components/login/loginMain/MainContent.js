@@ -6,13 +6,13 @@ import Vectors from '../../multipleButton/Vectors'
 import BottomText from '../../multipleText/BottomText'
 import { Link } from 'react-router-dom'
 import store from '../../../redux/store'
-import { useState } from 'react'
+import { useState ,useEffect} from 'react'
 import { login } from '../../../redux/action'
-import stores from '../../../redux/store'
+
 export default function MainContent() {
   const [emails,setEmails]=useState('');
   const [password,setPassword]=useState('');
- 
+
   return (
     <div className="login-main">
       <div className='login-main-box'>
@@ -22,7 +22,7 @@ export default function MainContent() {
           <p className='forgot-password'>Forgot password?</p>
         </Link>
         <InputComponent place='  Enter Your Password' content='Password' type='password'  password={passwords} />
-        <Link to={stores.getState().paths}>
+        <Link to={store.getState().paths}>
           <Multiple content='Login' onClick={submit}/>
         </Link>
         <Vectors />
