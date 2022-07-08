@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom'
 import { useState } from 'react'
 import store from '../../redux/store'
 import { register } from '../../redux/action'
+import Box from '@mui/material/Box';
 export default function RegisterContent() {
   const [email,setEmails]=useState('');
   const [password,setPassword]=useState('');
@@ -23,30 +24,30 @@ export default function RegisterContent() {
   }
   return (
  
-    <div className="login-main">
-        <div className='login-main-register-box'>
+    <Box className="login-main">
+        <Box className='login-main-register-box'>
         <p className='check-main-title'>Create an account</p>
             <InputComponent place='Enter Your Email' content='Email' registerEmail={registerEmail}/>
       
             <InputComponent place='Enter Your Password' content='Password' type='password' registerPassword={registerPassword}/>
          
-            <div className='check-input'>
+            <Box className='check-input'>
             <InputComponent place='Confirm Your Password'  type='password'/>
-            </div>
+            </Box>
             <Link to='/registerLogin'>
             <Button content='Register' onClick={onClick}/>
             </Link>
             <Vectors/>
-        </div>
-        <div className='login-main-bottom-text'>         
+        </Box>
+        <Box className='login-main-bottom-text'>         
            <p className='login-main-bottom-text-left'>Already have an account?</p> 
            <Link to='registerLogin'>
            <p className='login-main-bottom-text-right'>Login here</p>   
            </Link>
-        </div>       
+        </Box>       
            <BottomText/>
        
-    </div>
+    </Box>
     
   )
 }

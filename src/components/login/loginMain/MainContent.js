@@ -8,14 +8,14 @@ import { Link } from 'react-router-dom'
 import store from '../../../redux/store'
 import { useState ,useEffect} from 'react'
 import { login } from '../../../redux/action'
-
+import Box from '@mui/material/Box';
 export default function MainContent() {
   const [emails,setEmails]=useState('');
   const [password,setPassword]=useState('');
 
   return (
-    <div className="login-main">
-      <div className='login-main-box'>
+    <Box className="login-main">
+      <Box className='login-main-box'>
         <MainTitle />
         <InputComponent place='  Enter Your Email' content='Email'  email={email} />
         <Link to='forgetPassword'>
@@ -26,15 +26,15 @@ export default function MainContent() {
           <Multiple content='Login' onClick={submit}/>
         </Link>
         <Vectors />
-      </div>
-      <div className='login-main-bottom-text'>
+      </Box>
+      <Box className='login-main-bottom-text'>
         <p className='login-main-bottom-text-left'> New to Perform Life?</p>
         <Link to='register'>
           <p className='login-main-bottom-text-right'>Create an account</p>
         </Link>
-      </div>
+      </Box>
       <BottomText />
-    </div>
+    </Box>
   )
 function email(e){
   console.log(e.target.value)

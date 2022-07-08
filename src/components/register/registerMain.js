@@ -3,9 +3,9 @@ import RegisterContent from './registerContent'
 import Header from '../login/loginHeader/LoginHeader'
 export default function registerMain() {
   return (
-    <div>
+    <>
          <Header/>
         <RegisterContent/>
-    </div>
+    </>
   )
 }

@@ -7,11 +7,12 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Login from './components/login/login'
 import HomeMain from './components/homePage/homeMain'
 import Lives from './components/homePage/lives'
+import OverViewMain from './components/overView/overViewMain'
 export default function App() {
   return (
     <>
       <div className='login-outside'>
-        <Router>
+        {/* <Router>
           <Routes>
             <Route path='/forgetPassword' element={<ForgetPasswordMain />} />
             <Route path='/register' element={<Register />} />
@@ -24,7 +25,8 @@ export default function App() {
             <Route path='/registerLogin' element={<Login />} />
             <Route path='/comLogin' element={<Login />} />
           </Routes>
-        </Router>
+        </Router> */}
+        <OverViewMain/>
       </div>
     </>
   )
