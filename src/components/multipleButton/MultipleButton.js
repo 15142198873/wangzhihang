@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function multipleButton({content}) {
+export default function multipleButton({content,onClick}) {
   return (
     <div>
-        <button className='multiple-button'>{content}</button>
+        <button className='multiple-button' onClick={onClick}>{content}</button>
     </div>
   )
 }

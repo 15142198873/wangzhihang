@@ -19,10 +19,12 @@ export default class sidebarContent extends Component {
     return (
       <div>
           <p className='sidebar-browse'>Browse</p>
-          <Link to='/lives'>
+          
           <SidebarButton img={BlackHome} content='Home'/>
-          </Link>
+          
+          <Link to='/lives'>
           <SidebarButton img={Flame} content='Live'/>
+        </Link>
           <SidebarButton img={Vcr} content='pcoming'/>
           <SidebarButton img={Calendar} content='Popular'/>
           <p className='sidebar-browse'>My Account</p>

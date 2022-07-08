@@ -18,14 +18,14 @@ export default function registerContent() {
             <div className='check-input'>
             <InputComponent place='Confirm Your Password'  type='password'/>
             </div>
-            <Link to='/login'>
+            <Link to='/registerLogin'>
             <Button content='Register'/>
             </Link>
             <Vectors/>
         </div>
         <div className='login-main-bottom-text'>         
            <p className='login-main-bottom-text-left'>Already have an account?</p> 
-           <Link to='login'>
+           <Link to='registerLogin'>
            <p className='login-main-bottom-text-right'>Login here</p>   
            </Link>
         </div>       
